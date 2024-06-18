@@ -36,6 +36,7 @@ and having a friendly name is definitely easier than a long hash :)
 
 You need to authenticate yourself to the docker registry in order to push images to it. Normally you should only do this once or when your credentials expire. For this, you will need the AWS client `aws`. See [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) for instructions on how to install this client.
 
+After installing, use `aws configure` to set the `AWS Access Key Id` and `AWS Secret Access Key` credentials you should've received from Extra Horizon. See [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html) for more details.  
 
 Once `aws` is set up correctly, use it to authenticate against the docker registry. This is explained [here](https://docs.aws.amazon.com/AmazonECR/latest/userguide/registry_auth.html), but the easiest is probably to do
 
